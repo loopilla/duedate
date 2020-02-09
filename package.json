@@ -1,0 +1,24 @@
+{
+  "name": "homeworkbase",
+  "version": "1.0.0",
+  "description": "Typescript boilerplate with Node.js mocha and chai",
+  "main": "app.ts",
+  "scripts": {
+    "start": "node dist/app.js",
+    "test": "mocha -r ts-node/register tests/**/*.spec.ts",
+    "build": "npm run build-ts",
+    "build-ts": "tsc --sourceMap -p ./"
+  },
+  "author": "loopilla@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.2.8",
+    "@types/mocha": "^7.0.1",
+    "@types/node": "^13.7.0",
+    "chai": "^4.2.0",
+    "mocha": "^7.0.1",
+    "ts-node": "^8.6.2",
+    "tslint": "^6.0.0",
+    "typescript": "^3.7.5"
+  }
+}
