@@ -1,8 +1,3 @@
-export class Application {
-    public static convert = (): boolean => {
-        console.log('futik');
-        return false;
-    }
-}
+import { DueDateApplication } from './dueDate';
 
-export default Application.convert();
+export default new DueDateApplication([...process.argv.slice(-2)]);

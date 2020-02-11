@@ -23,6 +23,7 @@
       "member-access":false,
       "no-any": false,
       "noImplicitAny": false,
-      "no-unused-expression": false
+      "no-unused-expression": false,
+      "no-bitwise": false
     }
   }
